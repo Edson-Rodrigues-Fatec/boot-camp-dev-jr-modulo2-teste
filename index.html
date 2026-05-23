@@ -9,28 +9,30 @@
         background-color: #F5F5F5;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
     .conteiner{
         background-color: #E9E9E9;
         margin:auto;
         width:600px;  
-        box-shadow: 1px 3px 8px 1px rgba(0,0 ,0, 3 )  ;
-     border-radius: 5px;
+        box-shadow: 1px 3px 8px 1px rgba(0,0,0,3);
+        border-radius: 5px;
         overflow: hidden;
         margin-top: 75px;
     }
+
     .header{
-padding: 40px;    
+     padding: 40px;    
     }
+
     .flex-container{
         display:flex;
-        background-color: #006A6A;
         justify-content: space-around;
-        padding: 20px;
     }
     .header-title{
       color: #006F6F;
       font-size: 32px;
-      font-weight: 700;}
+      font-weight: 700;
+    }
      
       .header-subtitle{
         color: #009E9E;
@@ -39,9 +41,50 @@ padding: 40px;
         margin-top: 30px;
         margin-bottom: 25px;
       }
-    
-    </style>
 
+      .col-1{
+        background-color: #006F6F;
+        width: 50%;
+        padding: 20px;
+        color: #fff;
+    }
+      
+
+      .col-2{
+       background-color: #009493;
+       width: 50%;
+       padding: 20px;
+       color: #fff;
+    }
+    .subscription-title{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .price{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .month{
+        font-size: 15px;
+        font-style: italic;
+        margin-left: 15px;
+    }
+    .button{
+        width: 100%;
+        padding: 15px 32px;
+        color: #006A6A;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: #CCCCCC;   
+        border: none;   
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .button:hover{
+        background-color: #B3B3B3;
+    }
+    </style>
 </head>
 <body>
     <div class="conteiner">
@@ -51,11 +94,28 @@ padding: 40px;
            <div>Faça parte de nossa comunidade de desenvolvedores.<br> Tenha suporte da nossa equipe e cresça mais rápido em sua carreira.  </div>
          </div>
          <div class="flex-container">
-            <div >
-            Segunda Linha! - Primeira coluna./////
+            <div class="col-1">
+              <div class="subscription-title">Assinatura mensal:</div>
+              <div>
+                <span class="price">R$99,99</span> 
+                <span class="month">por mês.</span> 
             </div>
-            <div>
-            /////Segunda Linha! - Segunda coluna.
+              <div>Cancele a qualquer momento.</div>
+              <button class="button">Assine Agora</button>
+            </div>
+
+            <div class="col-2">
+            <image ></image>
+            <div>Você terá acesso :</div>
+            
+            <list>
+                <li>Projetos exclusivos</li>
+                <li>Tutorias</li> 
+                <li>Lives semanais</li>
+                <li>Material didático especializado</li>
+                <li>Fórum</li>
+                <li>Ofertas de emprego</li>  
+            </list>
             </div>
     </div>
     
