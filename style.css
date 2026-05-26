@@ -29,7 +29,23 @@
         overflow: hidden;
      
     }
-
+  button{
+        width: 100%;
+        padding:0.94rem 2rem;
+        color: #006A6A;
+        font-size: 1rem;
+        border-radius: 5px;
+        background-color: #CCCCCC;   
+        border: none;   
+        margin-top: 1.25rem;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #B3B3B3;
+    }
+    .image-group{
+        text-align: center;
+    }
     header{
      padding: 0.9rem;    
     }
@@ -80,23 +96,7 @@
         font-style: italic;
         margin-left: 0.94rem;
     }
-    .button{
-        width: 100%;
-        padding:0.94rem 2rem;
-        color: #006A6A;
-        font-size: 1rem;
-        border-radius: 5px;
-        background-color: #CCCCCC;   
-        border: none;   
-        margin-top: 1.25rem;
-        cursor: pointer;
-    }
-    .button:hover{
-        background-color: #B3B3B3;
-    }
-    .image-group{
-        text-align: center;
-    }
+  
 .form-cadastro{
     background-color: #006A6A;
     padding: 1.25rem;
