@@ -3,8 +3,24 @@
         background-color: #F5F5F5;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
-    .conteiner{
+    a{
+        color:#E9E9E9;
+        font-size: 0.8rem;
+    }
+    input{
+        width: 95%;
+        height:22px;
+        padding: 0.9rem;
+        font-size: 1.2rem;
+        border: 0;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    input:focus{
+        outline: none;
+        box-shadow: 0 0 10px #03ec49;
+    }
+    conteiner{
         background-color: #E9E9E9;
         margin:auto;
         width:600px;  
@@ -14,8 +30,8 @@
      
     }
 
-    .header{
-     padding: 2.5rem;    
+    header{
+     padding: 0.9rem;    
     }
 
     .flex-container{
@@ -81,7 +97,14 @@
     .image-group{
         text-align: center;
     }
-
+.form-cadastro{
+    background-color: #006A6A;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:space-around;
+}
     @media screen and (max-width: 620px) {
                html{
                font-size: 14px;
@@ -91,11 +114,14 @@
     flex-direction: column;
    }
     .col-1, .col-2{
-     width: 100%;
+     width: 95%;
      box-sizing:border-box;
     }
     .conteiner{
         width: 95%;
+    }
+    .header{
+        padding: 15px;
     }
 }
 
