@@ -1,0 +1,101 @@
+
+    body{
+        background-color: #F5F5F5;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .conteiner{
+        background-color: #E9E9E9;
+        margin:auto;
+        width:600px;  
+        box-shadow: 1px 3px 8px 1px rgba(0,0,0,3);
+        border-radius: 5px;
+        overflow: hidden;
+     
+    }
+
+    .header{
+     padding: 2.5rem;    
+    }
+
+    .flex-container{
+        display:flex;
+        justify-content: space-around;
+    }
+    .header-title{
+      color: #006F6F;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+     
+      .header-subtitle{
+        color: #009E9E;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 25px;
+      }
+
+      .col-1{
+        background-color: #006F6F;
+        width: 50%;
+        padding: 1.25rem;
+        color: #fff;
+    }
+      
+
+      .col-2{
+       background-color: #009493;
+       width: 50%;
+       padding:0.625rem 1.25rem;
+       color: #fff;
+    }
+    .subscription-title{
+        font-size: 1.125rem;
+        text-align: center;
+        margin-bottom: 1.25rem; ;
+    }
+    .price{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .month{
+        font-size: 0.94rem;
+        font-style: italic;
+        margin-left: 0.94rem;
+    }
+    .button{
+        width: 100%;
+        padding:0.94rem 2rem;
+        color: #006A6A;
+        font-size: 1rem;
+        border-radius: 5px;
+        background-color: #CCCCCC;   
+        border: none;   
+        margin-top: 1.25rem;
+        cursor: pointer;
+    }
+    .button:hover{
+        background-color: #B3B3B3;
+    }
+    .image-group{
+        text-align: center;
+    }
+
+    @media screen and (max-width: 620px) {
+               html{
+               font-size: 14px;
+               }
+    
+   .flex-container{
+    flex-direction: column;
+   }
+    .col-1, .col-2{
+     width: 100%;
+     box-sizing:border-box;
+    }
+    .conteiner{
+        width: 95%;
+    }
+}
+
